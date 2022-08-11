@@ -1,6 +1,6 @@
 # Create Envfile Github Action
 
-**Name: SpicyPizza/create-envfile@v1**
+**Name: Bludata/create-envfile@v1**
 
 Github Action to create a .env file with Github Secrets
 
@@ -21,7 +21,7 @@ jobs:
  
     steps:
     - name: Make envfile
-      uses: SpicyPizza/create-envfile@v1
+      uses: Bludata/create-envfile@v1
       with:
         envkey_DEBUG: false
         envkey_SOME_API_KEY: "123456abcdef"
